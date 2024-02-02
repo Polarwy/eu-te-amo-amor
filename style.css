@@ -1,11 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right,#9a1d86, #1595be);
+    background: linear-gradient(to right,#da5252, #db23d2);
     font-weight: bold;
     }
     
     .player{
-      height: 95vh;
+      height: 90vh;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -28,9 +28,9 @@ body {
     
     .track-art {
     margin: 25px;
-    height: 250px;
-    width: 250px;
-    border:2px solid 	#FFFAFA;
+    height: 230px;
+    width: 230px;
+    border:2px solid 	#a446bb;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -62,7 +62,7 @@ body {
     margin-bottom: 30px;
     }
     .active{
-        color: black;
+        color: rgb(0, 0, 0);
     }
     
     .repeat-track,
@@ -94,7 +94,7 @@ body {
     -moz-appearance: none;
     appearance: none;
     height: 5px;
-    background: #83A9FF;
+    background: #c383ff;
     -webkit-transition: .2s;
     transition: opacity .2s;
     }
@@ -106,8 +106,8 @@ body {
     appearance: none;
     width: 15px;
     height: 15px;
-    background: white;
-    border: 3px solid #3774FF;
+    background: rgb(255, 255, 255);
+    border: 3px solid #2969ff;
     cursor: grab;
     border-radius: 100%;
     }
@@ -118,7 +118,7 @@ body {
     }
     
     .seek_slider {
-    width: 60%;
+    width: 55%;
     }
     
     .volume_slider {
@@ -144,10 +144,10 @@ body {
     cursor: pointer;
     }
     .randomActive{
-        color: black;
+        color: rgb(0, 0, 0);
     }
     .rotate {
-        animation: rotation 8s infinite linear;
+        animation: rotation 12s infinite linear;
     }
     @keyframes rotation {
         from {
@@ -164,7 +164,7 @@ body {
       align-items: center;
     }
     .loader .stroke{
-        background: #f1f1f1;
+        background: #ff0000;
         height: 150%;
         width: 10px;
         border-radius: 50px;
@@ -174,11 +174,11 @@ body {
       @keyframes animate {
         50% {
           height: 20%;
-          background: #4286f4;
+          background: #ff00f2;
         }
     
         100% {
-          background: #4286f4;
+          background: #ff0000;
           height: 100%;
         }
       }
