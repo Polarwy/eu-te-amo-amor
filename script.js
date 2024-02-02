@@ -25,7 +25,7 @@ const music_list = [
         img : 'images/amo-ela.jpeg',
         name : 'Home',
         artist : 'Edith Whiskers',
-        music : 'music/home.mp3'
+        music : 'music/Home.mp3'
     },
     {
         img : 'images/eu-e-ela.JPG',
