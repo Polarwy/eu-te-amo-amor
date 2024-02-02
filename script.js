@@ -22,10 +22,10 @@ let updateTimer;
 
 const music_list = [
     {
-        img: 'images/amo-ela.jpeg',
-        name: 'Home',
-        artist: 'Edith Whiskers',
-        music: 'music/home.mp3'
+        img : 'images/amo-ela.jpeg',
+        name : 'Home',
+        artist : 'Edith Whiskers',
+        music : 'music/home.mp3'
     },
     {
         img: 'images/eu-e-ela.JPG',
